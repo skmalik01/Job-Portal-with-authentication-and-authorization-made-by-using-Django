@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+*.venv
+
+# Django Stuff
+db.sqlite3  # Ignore SQLite database
+instance/
+media/
+staticfiles/
+
+# Migrations (optional, if you don’t want to track them)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System Files
+.DS_Store
+Thumbs.db
